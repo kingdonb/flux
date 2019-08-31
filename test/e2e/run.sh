@@ -76,7 +76,7 @@ kubectl -n "${FLUX_NAMESPACE}" rollout status deployment/gitsrv
 
 if [ "${USING_KIND}" = 'true' ]; then
     echo '>>> Loading images into the Kind cluster'
-    kind --name "${KIND_CLUSTER}" load docker-image 'docker.io/fluxcd/flux:latest'
+    kind --name "${KIND_CLUSTER}" load docker-image 'docker.io/kingdonb/flux:latest'
 fi
 
 echo '>>> Installing Flux with Helm'
@@ -99,7 +99,7 @@ defer helm delete --purge flux > /dev/null 2>&1
 
 helm install --name flux --wait \
 --namespace "${FLUX_NAMESPACE}" \
---set image.repository=docker.io/fluxcd/flux \
+--set image.repository=docker.io/kingdonb/flux \
 --set image.tag=latest \
 --set git.url=ssh://git@gitsrv/git-server/repos/cluster.git \
 --set git.secretName=ssh-git \
