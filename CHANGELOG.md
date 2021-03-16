@@ -8,6 +8,35 @@
 > requests](https://github.com/fluxcd/toolkit/discussions) for Flux v2
 > and Toolkit components.
 
+## 1.22.0 (2021-03-16)
+
+The changelog generator was not pleased about my omnibus branch shenanigans
+TODO: amend this changelog with more details about the PRs making up the omnibus.
+
+### Uncategorized
+
+- Omnibus branch for Flux v1.22.0 Release [fluxcd/flux#3442][]
+- Remove the link-checker action [fluxcd/flux#3432][]
+- Housekeeping: merge release branch 1.21.x into master [fluxcd/flux#3427][]
+
+### Fixes
+
+- Rationalize usage messages - close #2795 [fluxcd/flux#3445][]
+
+### Documentation
+
+- add twitter and linkedin to docs.f.i [fluxcd/flux#3429][]
+
+### Thanks
+
+Thanks to @dholbach and @kingdonb for their contributions to this release.
+
+[fluxcd/flux#3445]: https://github.com/fluxcd/flux/pull/3445
+[fluxcd/flux#3442]: https://github.com/fluxcd/flux/pull/3442
+[fluxcd/flux#3432]: https://github.com/fluxcd/flux/pull/3432
+[fluxcd/flux#3429]: https://github.com/fluxcd/flux/pull/3429
+[fluxcd/flux#3427]: https://github.com/fluxcd/flux/pull/3427
+
 ## 1.21.2 (2021-02-16)
 
 This patch release surfaces a notice from https://docs.fluxcd.io/en/latest/
