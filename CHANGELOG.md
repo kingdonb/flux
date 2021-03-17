@@ -8,13 +8,13 @@
 > requests](https://github.com/fluxcd/toolkit/discussions) for Flux v2
 > and Toolkit components.
 
-## 1.22.0 (2021-03-16)
-
-This minor release adds support for `envsubst`, as the [Post-Build Variable Substitution](https://toolkit.fluxcd.io/components/kustomize/kustomization/#variable-substitution) feature which was added in Flux v2 can be a bridge for some `.flux.yaml` users who are struggling with the changes from Flux v1 in Kustomize controller.
-
-Some other minor enhancements that are non breaking changes have also been highlighted below.
+## 1.22.0 (2021-03-17)
 
 This release continues the Flux v1 maintenance mode series.
+
+This minor release of Flux v1 adds support for `envsubst`, lining up with the [Post-Build Variable Substitution](https://toolkit.fluxcd.io/components/kustomize/kustomization/#variable-substitution) feature which was added in Flux v2 to help replicate some functionality that was lost when `.flux.yaml` was deprecated in Flux v2.
+
+Some other minor enhancements that are non breaking changes have also been highlighted below.
 
 All users are encouraged to begin finding a migration path to Flux v2, and filing issues when their migrations are blocked. While the length of time that maintenance mode will continue providing fixes and support for Flux v1 has not been formally determined yet, we can safely say that the horizon is still at least 6 months away.
 
