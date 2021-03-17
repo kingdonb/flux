@@ -44,6 +44,7 @@ All users are encouraged to begin finding a migration path to Flux v2, and filin
 
 Thanks to @squaremo, @mattwillsher, @hermanbanken, @masterkain, @rust84, @fabstu, @derrickburns, @dlespiau, @alaa, @alex-shpak, @stevehipwell, @drazul, @stefanprodan, @hiddeco, @dholbach and @kingdonb for their contributions to this release.
 
+[fluxcd/flux#3296]: https://github.com/fluxcd/flux/pull/3296
 [fluxcd/flux#3436]: https://github.com/fluxcd/flux/pull/3436
 [fluxcd/flux#3229]: https://github.com/fluxcd/flux/pull/3229
 [fluxcd/flux#3440]: https://github.com/fluxcd/flux/pull/3440
