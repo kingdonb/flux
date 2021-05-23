@@ -49,7 +49,7 @@ require (
 	github.com/fluxcd/helm-operator v1.2.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-kit/kit v0.9.0
-	github.com/golang/gddo v0.0.0-20190312205958-5a2505f3dbf0
+	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/google/go-containerregistry v0.4.0
 	github.com/google/go-github/v28 v28.1.1
