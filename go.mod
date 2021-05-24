@@ -36,7 +36,7 @@ require (
 	github.com/Jeffail/gabs v1.4.0
 	github.com/Masterminds/semver/v3 v3.0.3
 	github.com/Microsoft/go-winio v0.4.16 // indirect
-	github.com/aws/aws-sdk-go v1.33.18
+	github.com/aws/aws-sdk-go v1.37.18
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/cheggaaa/pb/v3 v3.0.2
 	github.com/containerd/continuity v0.0.0-20210208174643-50096c924a4e // indirect
@@ -49,6 +49,7 @@ require (
 	github.com/fluxcd/helm-operator v1.2.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-kit/kit v0.10.0
+	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/google/go-containerregistry v0.4.0
@@ -73,7 +74,7 @@ require (
 	github.com/weaveworks/go-checkpoint v0.0.0-20170503165305-ebbb8b0518ab
 	github.com/whilp/git-urls v0.0.0-20160530060445-31bac0d230fa
 	github.com/xeipuuv/gojsonschema v1.2.0
-	go.mozilla.org/sops/v3 v3.6.1
+	go.mozilla.org/sops/v3 v3.7.1
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
