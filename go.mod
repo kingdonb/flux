@@ -84,7 +84,7 @@ require (
 	gotest.tools/v3 v3.0.3 // indirect
 	k8s.io/api v0.19.8
 	k8s.io/apiextensions-apiserver v0.21.1
-	k8s.io/apimachinery v0.19.8
+	k8s.io/apimachinery v0.21.1
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/klog v1.0.0
 )
