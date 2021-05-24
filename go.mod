@@ -4,7 +4,7 @@ go 1.15
 
 // remove when https://github.com/docker/distribution/pull/2905 is released.
 // Update: on 2021-02-25 this has been merged, 2.7.2 should include it soon!
-replace github.com/docker/distribution => github.com/fluxcd/distribution v0.0.0-20190419185413-6c9727e5e5de
+replace github.com/docker/distribution => github.com/fluxcd/distribution/v2 v2.7.1
 
 // fix go-autorest ambiguous import caused by sops
 // sops needs to update their deps ref: https://github.com/kubernetes/client-go/issues/628
