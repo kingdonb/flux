@@ -54,7 +54,7 @@ require (
 	github.com/google/go-github/v28 v28.1.1
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/websocket v1.4.2
-	github.com/imdario/mergo v0.3.8
+	github.com/imdario/mergo v0.3.12
 	github.com/magefile/mage v1.11.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opentracing-contrib/go-stdlib v1.0.0 // indirect
