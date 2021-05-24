@@ -8,7 +8,7 @@ replace github.com/docker/distribution => github.com/fluxcd/distribution v0.0.0-
 
 // fix go-autorest ambiguous import caused by sops
 // sops needs to update their deps ref: https://github.com/kubernetes/client-go/issues/628
-replace github.com/Azure/go-autorest => github.com/Azure/go-autorest v12.2.0+incompatible
+replace github.com/Azure/go-autorest/v14 => github.com/Azure/go-autorest v14.2.0
 
 // transitive requirement from Helm Operator
 replace (
