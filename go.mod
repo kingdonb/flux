@@ -52,7 +52,7 @@ require (
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/google/go-containerregistry v0.4.0
 	github.com/google/go-github/v28 v28.1.1
-	github.com/gorilla/mux v1.7.3
+	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/imdario/mergo v0.3.8
 	github.com/magefile/mage v1.11.0 // indirect
