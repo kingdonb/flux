@@ -50,7 +50,7 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
-	github.com/google/go-containerregistry v0.4.0
+	github.com/google/go-containerregistry v0.5.1
 	github.com/google/go-github/v28 v28.1.1
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/websocket v1.4.2
@@ -66,7 +66,7 @@ require (
 	github.com/sirupsen/logrus v1.8.0 // indirect
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.1
 	github.com/weaveworks/common v0.0.0-20190410110702-87611edc252e
 	github.com/weaveworks/go-checkpoint v0.0.0-20170503165305-ebbb8b0518ab
 	github.com/whilp/git-urls v0.0.0-20160530060445-31bac0d230fa
