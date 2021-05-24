@@ -8,7 +8,7 @@ replace github.com/docker/distribution => github.com/fluxcd/distribution v0.0.0-
 
 // fix go-autorest ambiguous import caused by sops
 // sops needs to update their deps ref: https://github.com/kubernetes/client-go/issues/628
-replace github.com/Azure/go-autorest => github.com/Azure/go-autorest v12.2.0+incompatible
+replace github.com/Azure/go-autorest/v14 => github.com/Azure/go-autorest v14.2.0
 
 // transitive requirement from Helm Operator
 replace (
@@ -49,15 +49,12 @@ require (
 	github.com/fluxcd/helm-operator v1.2.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-kit/kit v0.10.0
-	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
-	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/google/go-containerregistry v0.4.0
 	github.com/google/go-github/v28 v28.1.1
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/imdario/mergo v0.3.8
-	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/magefile/mage v1.11.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opentracing-contrib/go-stdlib v1.0.0 // indirect
@@ -75,7 +72,6 @@ require (
 	github.com/whilp/git-urls v0.0.0-20160530060445-31bac0d230fa
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.mozilla.org/sops/v3 v3.7.1
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20210309074719-68d13333faf2
