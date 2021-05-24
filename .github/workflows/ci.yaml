@@ -34,7 +34,7 @@ jobs:
           cp "$(go env GOPATH)/bin/fluxctl" cache/fluxctl
           docker save -o cache/flux-latest.tar fluxcd/flux:latest
       - name: Upload cache
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: cache
           path: cache
