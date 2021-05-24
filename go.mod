@@ -48,7 +48,7 @@ require (
 	github.com/fluxcd/flux/pkg/install v0.0.0-00010101000000-000000000000
 	github.com/fluxcd/helm-operator v1.2.0
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-kit/kit v0.9.0
+	github.com/go-kit/kit v0.10.0
 	github.com/golang/gddo v0.0.0-20210115222349-20d68f94ee1f
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/google/go-containerregistry v0.4.0
