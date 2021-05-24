@@ -36,7 +36,7 @@ require (
 	github.com/Jeffail/gabs v1.4.0
 	github.com/Masterminds/semver/v3 v3.0.3
 	github.com/Microsoft/go-winio v0.4.16 // indirect
-	github.com/aws/aws-sdk-go v1.37.18
+	github.com/aws/aws-sdk-go v1.38.46
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/cheggaaa/pb/v3 v3.0.2
 	github.com/containerd/continuity v0.0.0-20210208174643-50096c924a4e // indirect
@@ -82,7 +82,7 @@ require (
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.3 // indirect
-	k8s.io/api v0.19.8
+	k8s.io/api v0.21.1
 	k8s.io/apiextensions-apiserver v0.21.1
 	k8s.io/apimachinery v0.21.1
 	k8s.io/client-go v11.0.0+incompatible
