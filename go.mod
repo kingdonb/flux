@@ -38,7 +38,7 @@ require (
 	github.com/Microsoft/go-winio v0.4.16 // indirect
 	github.com/aws/aws-sdk-go v1.37.18
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
-	github.com/cheggaaa/pb/v3 v3.0.2
+	github.com/cheggaaa/pb/v3 v3.0.8
 	github.com/containerd/continuity v0.0.0-20210208174643-50096c924a4e // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.4.1 // indirect
 	github.com/docker/cli v20.10.3+incompatible // indirect
@@ -78,7 +78,7 @@ require (
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20210309074719-68d13333faf2
+	golang.org/x/sys v0.0.0-20210403161142-5e06dd20ab57
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.3 // indirect
