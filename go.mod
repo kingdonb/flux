@@ -59,7 +59,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opentracing-contrib/go-stdlib v1.0.0 // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/pkg/term v0.0.0-20190109203006-aa71e9d9e942
+	github.com/pkg/term v1.1.0
 	github.com/prometheus/client_golang v1.10.0
 	github.com/prometheus/client_model v0.2.0
 	github.com/ryanuber/go-glob v1.0.0
