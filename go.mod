@@ -72,7 +72,7 @@ require (
 	github.com/whilp/git-urls v0.0.0-20160530060445-31bac0d230fa
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.mozilla.org/sops/v3 v3.7.1
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	golang.org/x/oauth2 v0.0.0-20210628180205-a41e5a781914
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20210309074719-68d13333faf2
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1
